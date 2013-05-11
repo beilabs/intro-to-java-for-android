@@ -1,6 +1,9 @@
 intro-to-java-for-android
 =========================
 
+##Lesson 3
+This lesson serves as an introduction to object oriented programming.  We look at the basic concepts such as inheritance, instantiation, and polymorphism. 
+Completed: 11/05/2013
 
 ##Lesson 2 
 This lesson concentrates on getting you familiar with the basics of Java, which include project structures, syntax, primitive data types, variable declaration and usage, as well as methods, and and variable scope.
