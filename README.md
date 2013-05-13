@@ -1,5 +1,8 @@
 intro-to-java-for-android
 =========================
+##Lesson 5
+In this lesson, we take a look at exception handling within Java. You'll learn the difference between a checked and unchecked exception, as well as how we can use try / catch blocks to gracefully deal with errors that may arise during the execution of our code. We'll take a look at Eclipse's debugging features, and track down a logical error as well as an exception within a sample application. Finally, we'll examine the basic functionality and use of JUnit, and unit testing, and wrap up the lesson with a look at Eclipse's refactoring capabilities.
+Completed: 13/05/2013
 
 ##Lesson 4
 In this lesson we have a chance to work with IF statements, Switch statements, and several loop implementations. We then review and utilitize arrays. Today's project uses all of the concepts covered, as we build a basic game of "Guess My Number".
