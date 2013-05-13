@@ -1,6 +1,10 @@
 intro-to-java-for-android
 =========================
 
+##Lesson 4
+In this lesson we have a chance to work with IF statements, Switch statements, and several loop implementations. We then review and utilitize arrays. Today's project uses all of the concepts covered, as we build a basic game of "Guess My Number".
+Completed: 13/05/2013
+
 ##Lesson 3
 This lesson serves as an introduction to object oriented programming.  We look at the basic concepts such as inheritance, instantiation, and polymorphism. 
 Completed: 11/05/2013

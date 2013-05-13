@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/txtTries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:text="Number of tries: 0"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/txtNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtNumberLbl"
+        android:layout_alignBottom="@+id/txtNumberLbl"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="number"
+        android:selectAllOnFocus="false" />
+
+    <Button
+        android:id="@+id/btnReset"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtNumber"
+        android:layout_marginTop="31dp"
+        android:text="Reset" />
+
+    <TextView
+        android:id="@+id/txtNumberLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtTries"
+        android:layout_marginTop="29dp"
+        android:gravity="center_vertical"
+        android:text="Number:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/btnReset"
+        android:text="OK" />
+
+    <TextView
+        android:id="@+id/txtAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnReset"
+        android:layout_marginTop="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
