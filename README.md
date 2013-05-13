@@ -1,5 +1,9 @@
 intro-to-java-for-android
 =========================
+##Lesson 6
+This lesson demonstrates several ways for us to work with the String object, as well as the basics of the Math object. We also look at the Calendar and SimpleDateFormat classes, as we try to determine how to display a difference in time between two dates.
+Completed: 
+
 ##Lesson 5
 In this lesson, we take a look at exception handling within Java. You'll learn the difference between a checked and unchecked exception, as well as how we can use try / catch blocks to gracefully deal with errors that may arise during the execution of our code. We'll take a look at Eclipse's debugging features, and track down a logical error as well as an exception within a sample application. Finally, we'll examine the basic functionality and use of JUnit, and unit testing, and wrap up the lesson with a look at Eclipse's refactoring capabilities.
 Completed: 13/05/2013
